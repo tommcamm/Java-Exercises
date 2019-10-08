@@ -17,8 +17,5 @@ public class VarTypes{
         //-Other primitives:
         boolean bool1; //True or False | 1 bit used (theorical size, depen0ds on jvm used)
         char char1; //Contains a unicode character | 2 Byte used
-
-        //Test Signing
-
     }
 }
