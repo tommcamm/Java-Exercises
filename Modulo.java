@@ -13,6 +13,6 @@ public class Modulo{
         System.out.print("\nSecondo numero: ");
         double seondDoub = scn.nextDouble();
 
-        System.out.println("\nIl modulo è: " + firstDoub % secondDoub);
-    }
+        System.out.println("\nIl modulo è: " + firstDoub % secondDoub); 
+    }   
 }
