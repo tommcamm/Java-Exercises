@@ -15,9 +15,7 @@ public class VarTypes{
         double flt3 = 34.5235; //From ±4.9E-324 to ±1.7976931348623157E+308 | 8 Byte used
 
         //-Other primitives:
-        boolean bool1; //True or False | 1 bit used (theorical size, depends on jvm used)
+        boolean bool1; //True or False | 1 bit used (theorical size, depen0ds on jvm used)
         char char1; //Contains a unicode character | 2 Byte used
-
-
     }
 }
