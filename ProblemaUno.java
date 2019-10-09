@@ -14,7 +14,7 @@ public class ProblemaUno{
 
         try{
             //Chiedo all'utente il tempo
-            System.out.print("Ciao Stronzo, inserisci le ore: ");
+            System.out.print("Ciao, inserisci le ore: ");
             hours = scn.nextInt();
 
             System.out.print("\nOra i minuti: ");
@@ -29,7 +29,7 @@ public class ProblemaUno{
             System.out.print("\nInserisci la distanza: ");
             distance = scn.nextDouble();
         }catch(InputMismatchException e){
-            System.out.println("Secondo te il tempo o la distanza si misura con lettere???");
+            System.out.println("Valori inseriti non validi");
         }catch(Exception e){
             System.out.println("Errore fatale, stacktrace: ");
             e.printStackTrace();
