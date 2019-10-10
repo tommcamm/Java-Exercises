@@ -27,7 +27,8 @@ public class EqSecondoGrado{
             valC = scn.nextInt();                       
 
         }catch(InputMismatchException e){
-            System.out.println("Errore inserimento valori!");
+            System.out.println("Valore inserito non valido!");
+            System.exit(0);
         }
         scn.close();
 
