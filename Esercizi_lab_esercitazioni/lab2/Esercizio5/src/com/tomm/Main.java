@@ -17,7 +17,7 @@ public class Main {
             try{
 
                 System.out.print("\nInserisci un numero tra 0 e 127: ");
-                selNum = scn.nextInt();
+                selNum = Integer.parseInt(scn.nextLine()); //Workaround per evitare un loop nel caso di carattere non numerico
 
                 if((selNum < 0) || (selNum > 127)){
                     System.out.println("Numero non compreso tra 0 e 127!");
@@ -26,6 +26,9 @@ public class Main {
 
             }catch (InputMismatchException e){
                 System.out.println("Carattere inserito non valido!");
+                error = true;
+            }catch (NumberFormatException e){
+                System.out.println("Carattere inserito non numerico!");
                 error = true;
             }
 
