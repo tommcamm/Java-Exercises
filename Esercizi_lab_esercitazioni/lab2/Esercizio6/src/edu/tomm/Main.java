@@ -24,12 +24,12 @@ public class Main {
                 System.out.println("Numero non corretto di caratteri!");
                 System.exit(0);
             }
-            for(int i=0; 4 > i; i++){
+            for(int i=0; 4 >= i; i++){
                 if((input1.charAt(i) != '+') && (input1.charAt(i) != '-')){
                     System.out.println("Nella prima stringa sono presenti caratteri non permessi");
                     System.exit(0);
                 } else if ((input2.charAt(i) != '+') && (input2.charAt(i) != '-')){
-                    System.out.println("Nella seconda stringa non sono presenti caratteri non permessi");
+                    System.out.println("Nella seconda stringa sono presenti caratteri non permessi");
                     System.exit(0);
                 }
             }
