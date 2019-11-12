@@ -55,6 +55,7 @@ public class Main {
                     KbInput = KbInput.substring(0, (((m+(n*i))%KbInput.length())-1)) + Character.toUpperCase(KbInput.charAt((m+(n*i))%KbInput.length())) + KbInput.substring(((m+(n*i))%KbInput.length())+1);
                 }
             }
+
         }
 
         System.out.println("Risultato" + result);
