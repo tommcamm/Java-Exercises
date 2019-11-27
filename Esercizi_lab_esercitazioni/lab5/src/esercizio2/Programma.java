@@ -34,7 +34,7 @@ public class Programma {
                     System.out.print("Inserisci n2: ");
                     n2 = Integer.parseInt(scn.nextLine());
                     if(n2==0){
-                        System.out.println("sei stronzo");
+                        System.out.println("Non posso dividere per zero!!!");
                     }else{
                         System.out.println("Risultato divisione: " + Metodi.divisioneIntera(n1, n2));
                         System.out.println("Resto: " + Metodi.restoDivisioneIntera(n1, n2));

@@ -17,9 +17,14 @@ public class Main {
                     System.out.println("Inserisci un numero decimale: ");
                     System.out.println("Il corrispettivo binario e': " + convertiDecInBin(Integer.parseInt(scn.nextLine())));
                     break;
+                case 'b':
+                    System.out.println("Inserisci un numero binario: ");
+                    System.out.println("Il corrispettivo decimale e': " + convertiBinDec(Integer.parseInt(scn.nextLine())));
+                    break;
                 case 't':
                     System.out.println("Good Bye!");
                     cycle = false;
+                    break;
                 default:
                     System.out.println("//SELEZIONE ERRATA//");
             }
@@ -32,7 +37,8 @@ public class Main {
 
         System.out.println("Selezione: " +
                 "\na) Decimale -> Binario " +
-                "\nb) Binario  -> Decimale");
+                "\nb) Binario  -> Decimale" +
+                "\nt) Termina");
         return scn2.nextLine().charAt(0);
     }
 
@@ -51,7 +57,16 @@ public class Main {
 
     public static int convertiBinDec(int numBin){
         String numStrBin = String.valueOf(numBin);
+        int result = 0;
+        int counter = 0;
 
+        for(int i=numStrBin.length(); i>0; i--){
+            if(numStrBin.charAt(i-1) == '1'){
+                result = result + (int) Math.pow(2, counter);
+            }
+            counter++;
+        }
 
+        return result;
     }
 }
