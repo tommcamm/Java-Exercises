@@ -11,7 +11,7 @@ public class Programma {
         int selNum;
         int numMin, numMax;
         int tentativi;
-        int contacazzo = 1;
+        int counter = 1;
 
         do{
             System.out.println("Inizio partita!");
@@ -47,9 +47,9 @@ public class Programma {
             }while(tentativi < 10);
 
             if(win){
-                System.out.println("hai vinto stronzo, hai usato " + (tentativi+1) + " tentativi");
+                System.out.println("hai vinto!!, hai usato " + (tentativi+1) + " tentativi");
             }else{
-                System.out.println("non hai vinto, coglione");
+                System.out.println("non hai vinto...");
             }
             System.out.println("Analytics: \n" +
                     "Numero da indovinare ["+randomNum+"]\n");
@@ -59,7 +59,9 @@ public class Programma {
                 System.out.println("good bye!");
                 cycle = false;
             }
-            contacazzo++;
+
+            //TODO: Missing last part of exercise (take note of the last 5 matches)
+            counter++;
         }while(cycle);
     }
 }
