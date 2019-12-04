@@ -3,6 +3,7 @@
 ## Directory della repository
 - Esercitazioni di laboratorio: https://github.com/tommcamm/Java-Exercises/tree/master/Esercizi_lab_esercitazioni
 - Esercitazioni individuali: https://github.com/tommcamm/Java-Exercises/tree/master/Esercizi_Individuali
+- Esercitazioni prove parziali: https://github.com/tommcamm/Java-Exercises/tree/master/Prove_parziali
 
 ## Informazioni aggiuntive
 Le esercitazioni individuali non comprendono quelle assegnate dalla università come esercizio.
