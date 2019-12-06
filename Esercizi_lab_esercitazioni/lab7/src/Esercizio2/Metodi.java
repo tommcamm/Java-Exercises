@@ -3,7 +3,7 @@ package Esercizio2;
 public class Metodi {
 
     public static String estraiStringaCasuale(){
-        String[] words = {"telolo", "alberto", "orologio", "esplosione"};
+        String[] words = {"telolo", "alberto", "orologio", "esplosione", "kamir", "scemo"};
         return words[(int) (Math.random()*4)];
     }
 
