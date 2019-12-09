@@ -6,10 +6,7 @@ public class Programma {
     public static void main(String[] args) {
         boolean cycle = true;
         String key = "";
-        char[][] matrix = Metodi.creaMatrice();
-
         Scanner scn = new Scanner(System.in);
-
 
         do{
             switch (Metodi.sceltaMenu()){
