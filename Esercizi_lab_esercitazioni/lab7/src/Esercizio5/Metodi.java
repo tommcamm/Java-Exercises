@@ -32,14 +32,9 @@ public class Metodi {
 
         for(int i=0; i<matrix.length; i++){
             for(int ii=0; ii<matrix[0].length; ii++){
-                if(charLevel > 122){
-                    charLevel = 97;
-                    matrix[i][ii] = (char) charLevel;
-                    charLevel++;
-                } else {
-                    matrix[i][ii] = (char) charLevel;
-                    charLevel++;
-                }
+                if(charLevel > 122) charLevel = 97;
+                matrix[i][ii] = (char) charLevel;
+                charLevel++;
             }
             charRow++;
             charLevel = 97 + charRow;
