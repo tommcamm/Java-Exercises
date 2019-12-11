@@ -6,6 +6,7 @@ public class Metodi {
     }
 
     public static boolean aggiungiObiettio(int[][] world, int row, int column){
+        return true;
 
     }
 
@@ -13,5 +14,7 @@ public class Metodi {
 
     }
 
-    public static int aggiungiPosizioniRobot(int[][] world, int path)
+    public static int aggiungiPosizioniRobot(int[][] world, int path){
+        return 23;
+    }
 }

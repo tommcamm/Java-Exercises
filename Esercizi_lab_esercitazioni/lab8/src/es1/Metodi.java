@@ -21,24 +21,19 @@ public class Metodi {
     }
 
     public static boolean rimuoviElemento(int[] array, int elmNum, int numb){
-        int elPos = -1;
+        boolean isOk = false;
 
         for(int i=0; i<elmNum; i++){
             if(array[i] == numb){
-                elPos = i;
+                for(int ii=i; ii<elmNum; ii++){
+                    array[ii] = array[i+1];
+                }
+                isOk = true;
                 break;
             }
         }
-
-        if(elPos >= 0){
-            array[elPos] = 0;
-            for(int i=elPos; i<elmNum; i++){
-                array[i] = array[i+1];
-            }
-            return true;
-        }else{
-            return false;
-        }   //ECLIPSE E MEGLIOOOO
+        //ECLIPSE E MEGLIOOOO
+        return isOk;
     }
 }
 
