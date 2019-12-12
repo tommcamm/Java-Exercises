@@ -7,17 +7,9 @@ public class Metodi {
     }
 
     public static boolean aggiungiElemento(int[] array, int elmNum, int numb){
-        boolean status = true;
-        for(int i=0; i<elmNum; i++){
-            if(array[i] == numb){
-                status = false;
-                break;
-            }
-        }
-        if(status){
-            array[elmNum] = numb;
-        }
-        return status;
+        for(int i=0; i<elmNum; i++) if(array[i] == numb) return false; //Lo so è la cosa più antipatica che esiste ;-)
+        array[elmNum] = numb;
+        return true;
     }
 
     public static boolean rimuoviElemento(int[] array, int elmNum, int numb){
