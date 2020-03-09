@@ -1,12 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9eeb40e3-76e4-4adb-9081-0150967766bb" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="9eeb40e3-76e4-4adb-9081-0150967766bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../javaFxT/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaFxT/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaFxT/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaFxT/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaFxT/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaFxT/javaFxT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaFxT/src/edu/tomm/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeans/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeans/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeans/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeans/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeans/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeans/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeans/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeans/K-Means.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeans/src/edu/tomm/Metodi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kmeans/src/edu/tomm/Programma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/src/Esercizio4b/main.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/src/Esercizio4b/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab8/src/es3/Metodi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab8/src/es3/Programma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/src/Esercizio4b/Programma.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/src/Esercizio4b/Programma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/src/Esercizio4b/frames/Frame1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/src/Esercizio4b/panels/Panel1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/src/Esercizio5/Metodi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/src/Esercizio5/Metodi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/src/Esercizio5/Programma.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/src/Esercizio5/Programma.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,26 +56,22 @@
       </set>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1UCacG9ph1Vi6A4x2TxshCGvFfr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -134,6 +161,8 @@
       <updated>1574863108812</updated>
       <workItem from="1574863112996" duration="7899000" />
       <workItem from="1575467642895" duration="129000" />
+      <workItem from="1580214334582" duration="238000" />
+      <workItem from="1580232821100" duration="45000" />
     </task>
     <servers />
   </component>
@@ -152,5 +181,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="656" y="405" key="com.intellij.ide.util.TipDialog" timestamp="1580232842858">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="656" y="405" key="com.intellij.ide.util.TipDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1580232842858" />
+    <state x="342" y="283" key="new project wizard" timestamp="1580232864092">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="342" y="283" key="new project wizard/0.0.1920.1160@0.0.1920.1160" timestamp="1580232864092" />
   </component>
 </project>

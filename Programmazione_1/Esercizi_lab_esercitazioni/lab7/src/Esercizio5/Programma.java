@@ -8,8 +8,8 @@ public class Programma {
         String key = "";
         Scanner scn = new Scanner(System.in);
 
-        do{
-            switch (Metodi.sceltaMenu()){
+        do {
+            switch (Metodi.sceltaMenu()) {
                 case '1':
                     //Cambia parola chiave
                     System.out.print("Inserisci parola chiave: ");
@@ -17,7 +17,7 @@ public class Programma {
                     break;
                 case '2':
                     //Cifra il messaggio
-                    if(key.equals("")){
+                    if (key.equals("")) {
                         System.out.println("Chiave non impostata!");
                     } else {
                         System.out.print("Messaggio da cifrare: ");
@@ -26,7 +26,7 @@ public class Programma {
                     break;
                 case '3':
                     //Decifra il messaggio
-                    if(key.equals("")){
+                    if (key.equals("")) {
                         System.out.println("Chiave non impostata!");
                     } else {
                         System.out.print("Messaggio da decifrare: ");
@@ -40,6 +40,6 @@ public class Programma {
                 default:
                     System.out.println("Scelta non valida!");
             }
-        }while(cycle);
+        } while (cycle);
     }
 }
