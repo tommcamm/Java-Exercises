@@ -1,9 +1,12 @@
 # Tomm's Exercises Repo
 
 ## Directory della repository
+### Programmazione 1
 - Esercitazioni di laboratorio: https://github.com/tommcamm/Java-Exercises/tree/master/Esercizi_lab_esercitazioni
 - Esercitazioni individuali: https://github.com/tommcamm/Java-Exercises/tree/master/Esercizi_Individuali
 - Esercitazioni prove parziali: https://github.com/tommcamm/Java-Exercises/tree/master/Prove_parziali
+### Programmazione 2
+- Simulazioni Prima prova parziale: https://github.com/tommcamm/Java-Exercises/tree/master/Programmazione_2/Parziale_1/src
 
 ## Informazioni aggiuntive
 Le esercitazioni individuali non comprendono quelle assegnate dalla università come esercizio.
